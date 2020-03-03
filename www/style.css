@@ -1,0 +1,119 @@
+.grid {
+    display: grid;
+}
+
+.cell {
+    margin: 20px;
+    display: inline-grid;
+}
+
+label {
+    display: block;
+}
+
+.hidden,
+.hidden label {
+    display: none;
+}
+
+
+body {
+    background: url('bg.png');
+}
+
+.wrap {
+    width: 1200px;
+    margin: auto;
+}
+
+
+a, h1, h2, h3, h4, h5, h6 {
+    color: #7B5C2E;
+    text-transform: capitalize;
+}
+
+a:hover {
+    color: white;
+    background-color: #7B5C2E;
+}
+
+* {
+    font-family: 'Roboto';
+}
+
+.rulesetTabs,
+nav {
+    background-color: #7B5C2E;
+}
+
+.rulesetTabs {
+    display: inline-block;
+}
+
+.rulesetTabs a,
+nav a {
+    font-size: 30px;
+    color: white;
+    text-decoration: none;
+    margin: 10px 20px;
+    display: inline-block;
+}
+
+.rulesetTabs a {
+    font-size: 20px;
+}
+
+.rulesetTabs a:hover,
+.rulesetTabs a.active,
+nav a:hover,
+nav a.active {
+    color: #7B5C2E;
+    background-color: white;
+}
+
+.inline {
+    display: inline-block;
+}
+
+
+h2.nations {
+    display: inline-block;
+}
+
+
+.nationList a {
+    display: inline-block;
+    margin: 20px;
+}
+
+textarea,
+.select2-selection,
+select,
+input[type="text"] {
+    padding: 5px 10px;
+    border: 1px #7B5C2E solid;
+    border-radius: 3px;
+    font-size: 18px;
+    color: #7B5C2E;
+    width: 300px;
+}
+
+textarea {
+    width: 600px;
+    height: 200px;
+}
+
+.select2-container .select2-selection--single {    
+    height: auto !important;
+}
+
+.govts {
+    display: grid;
+    grid-template-columns: auto auto auto auto auto;
+}
+
+.govts input,
+.govts .select2-selection,
+.govts select {
+    width: 200px !important;
+}
